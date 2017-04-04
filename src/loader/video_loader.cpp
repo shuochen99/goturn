@@ -1,3 +1,4 @@
+#define CPU_ONLY 1
 #include "video_loader.h"
 
 #include <opencv/cv.h>
