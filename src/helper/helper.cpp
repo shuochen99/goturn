@@ -4,7 +4,7 @@
  *  Created on: Jul 11, 2011
  *      Author: davheld
  */
-
+#define CPU_ONLY 1
 #include "helper.h"
 
 #include <string>
