@@ -1,3 +1,4 @@
+#define CPU_ONLY 1
 #include "tracker_manager.h"
 
 #include <string>
