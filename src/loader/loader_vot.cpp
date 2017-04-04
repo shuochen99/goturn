@@ -1,3 +1,4 @@
+#define CPU_ONLY 1
 #include "loader_vot.h"
 
 #include <opencv/cv.h>
