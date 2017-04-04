@@ -1,3 +1,4 @@
+#define CPU_ONLY 1
 #include "regressor_train.h"
 
 const int kNumInputs = 3;
