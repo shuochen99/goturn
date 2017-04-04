@@ -1,3 +1,4 @@
+#define CPU_ONLY 1
 #include "tracker_trainer.h"
 
 #include "caffe/caffe.hpp"
