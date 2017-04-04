@@ -1,5 +1,5 @@
 // Visualize the ImageNet dataset.
-
+#define CPU_ONLY 1
 #include "loader/loader_imagenet_det.h"
 #include <iostream>
 #include <string>
