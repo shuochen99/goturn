@@ -1,3 +1,4 @@
+#define CPU_ONLY 1
 #include "tracker.h"
 
 #include <opencv2/videostab/inpainting.hpp>
