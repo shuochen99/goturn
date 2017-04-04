@@ -1,3 +1,4 @@
+#define CPU_ONLY 1
 #include "loader_alov.h"
 
 #include <opencv/cv.h>
