@@ -1,3 +1,4 @@
+#define CPU_ONLY 1
 #include "image_proc.h"
 
 void ComputeCropPadImageLocation(const BoundingBox& bbox_tight, const cv::Mat& image, BoundingBox* pad_image_location) {
