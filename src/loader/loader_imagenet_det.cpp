@@ -1,3 +1,4 @@
+#define CPU_ONLY 1
 #include <tinyxml.h>
 
 #include "train/example_generator.h"
