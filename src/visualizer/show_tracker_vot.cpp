@@ -1,5 +1,5 @@
 // Visualize the tracker performance.
-
+#define CPU_ONLY 1
 #include <string>
 
 #include <opencv/cv.h>
