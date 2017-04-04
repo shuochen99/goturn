@@ -5,7 +5,7 @@
  *
  */
 
-
+#define CPU_ONLY 1
 #include "high_res_timer.h"
 
 HighResTimer::HighResTimer(const std::string& description,
