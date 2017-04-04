@@ -1,5 +1,5 @@
 #include "bounding_box.h"
-
+#define CPU_ONLY 1
 #include <cstdio>
 #include "helper/image_proc.h"
 
