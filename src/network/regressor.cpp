@@ -1,3 +1,4 @@
+#define CPU_ONLY 1
 #include "regressor.h"
 
 #include "helper/high_res_timer.h"
