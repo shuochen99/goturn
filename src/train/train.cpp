@@ -1,5 +1,5 @@
 // Train the neural network tracker.
-
+#define CPU_ONLY 1
 #include <string>
 #include <iostream>
 
