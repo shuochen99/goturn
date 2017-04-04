@@ -1,3 +1,4 @@
+#define CPU_ONLY 1
 #include "example_generator.h"
 
 #include <string>
