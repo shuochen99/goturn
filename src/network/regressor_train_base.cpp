@@ -1,3 +1,4 @@
+#define CPU_ONLY 1
 #include "regressor_train_base.h"
 
 MySolver::MySolver(const std::string& param_file)
