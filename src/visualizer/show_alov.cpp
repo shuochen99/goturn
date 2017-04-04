@@ -1,5 +1,5 @@
 // Visualize the ALOV dataset.
-
+#define CPU_ONLY 1
 #include <string>
 #include <iostream>
 #include "loader/loader_alov.h"
