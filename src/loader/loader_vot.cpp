@@ -27,7 +27,7 @@ LoaderVOT::LoaderVOT(const std::string& vot_folder)
   printf("Found %zu videos...\n", videos.size());
   for (size_t i = 0; i < videos.size(); ++i) {
     const string& video_name = videos[i];
-    const string& video_path = vot_folder + "/" + video_name;
+    const string& video_path = video_path + "/" + video_name;
 
     printf("Loading video: %s\n", video_name.c_str());
 
