@@ -27,7 +27,7 @@ LoaderVOT::LoaderVOT(const std::string& vot_folder)
   printf("Found %zu videos...\n", videos.size());
   for (size_t i = 0; i < videos.size(); ++i) {
     const string& video_name = videos[i];
-    const string& video_path = video_path + "/" + video_name;
+    const string& video_path = vot_folder + "/" + video_name;
 
     printf("Loading video: %s\n", video_name.c_str());
 
@@ -39,7 +39,7 @@ LoaderVOT::LoaderVOT(const std::string& vot_folder)
     find_matching_files(video_path, image_filter, &video.all_frames);
 
     // Open the annotation file.
-    const string& bbox_groundtruth_path = vot_folder + "/" + video_name + ".ann";
+    const string& bbox_groundtruth_path = video_path + ".ann";
     FILE* bbox_groundtruth_file_ptr = fopen(bbox_groundtruth_path.c_str(), "r");
     int frame_num = 0;
     double Ax, Ay, Bx, By, Cx, Cy, Dx, Dy;
