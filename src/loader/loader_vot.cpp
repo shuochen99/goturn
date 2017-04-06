@@ -43,11 +43,12 @@ LoaderVOT::LoaderVOT(const std::string& vot_folder)
     FILE* bbox_groundtruth_file_ptr = fopen(bbox_groundtruth_path.c_str(), "r");
     int frame_num = 0;
     double Ax, Ay, Bx, By, Cx, Cy, Dx, Dy;
+    int index;
 
     while (true) {
       // Read the annotation data.
-      const int status = fscanf(bbox_groundtruth_file_ptr, "%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf\n",
-                   &Ax, &Ay, &Bx, &By, &Cx, &Cy, &Dx, &Dy);
+      const int status = fscanf(bbox_groundtruth_file_ptr, "%d %lf %lf %lf %lf %lf %lf %lf %lf\n",
+                   &index, &Ax, &Ay, &Bx, &By, &Cx, &Cy, &Dx, &Dy);
       if (status == EOF) {
         break;
       }
