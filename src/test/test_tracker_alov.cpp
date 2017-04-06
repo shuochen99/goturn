@@ -1,3 +1,4 @@
+#define CPU_ONLY 1
 #include <string>
 
 #include <boost/lexical_cast.hpp>
