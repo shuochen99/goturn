@@ -2,6 +2,7 @@
 // http://www.votchallenge.net/howto/integration.html
 
 // Uncomment line below if you want to use rectangles
+#define CPU_ONLY 1
 #define VOT_RECTANGLE
 #include "native/vot.h"
 
